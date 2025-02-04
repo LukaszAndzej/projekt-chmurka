@@ -1,0 +1,32 @@
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-background-color: #fafafa;
+}
+
+.label {
+    -fx-text-fill: #333;
+}
+
+.button {
+    -fx-background-color: #1976d2;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+}
+.button:hover {
+    -fx-background-color: #1565c0;
+}
+
+.list-cell {
+    -fx-font-size: 14px;
+    -fx-padding: 5 10;
+}
+.list-cell:filled:hover {
+    -fx-background-color: #e3f2fd;
+}
+
+/* Pasek statusu na dole */
+.border-pane > .bottom {
+    -fx-background-color: #e0e0e0;
+    -fx-padding: 5 10;
+}

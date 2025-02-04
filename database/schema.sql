@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS users (
+    username VARCHAR(50) PRIMARY KEY,
+    password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS files (
+    file_id IDENTITY PRIMARY KEY,
+    owner VARCHAR(50) NOT NULL,
+    filename VARCHAR(255) NOT NULL,
+    content BLOB NOT NULL
+);
